@@ -299,33 +299,9 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
     transition: 1s;
     overflow: hidden;
 }
-.preloader::before{
-    content: ' ';
-    position: absolute;
-    left: 0;
-    width: 50%;
-    height: 100%;
-    background: #000;
-    transition: 4s;
-}
-.preloader::after{
-    content: ' ';
-    position: absolute;
-    right: 0;
-    width: 50%;
-    height: 100%;
-    background: #000;
-    transition: 4s;
-}
-.preloader.complete::before{
-    left:-50%;
-}
-.preloader.complete::after{
-    right:-50%;
-}
 .preloader.complete
 {
-    opacity: 0;
+    opacity: 1;
     visibility: hidden;
     pointer-events: none;
 }
