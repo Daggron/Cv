@@ -46,6 +46,9 @@
     <link rel="stylesheet" href="./assets/59171c984e3b95636814.css" />
     <link rel="stylesheet" href="./assets/63566d314e98af49802e.css" />
     <link rel="stylesheet" href="./assets/4227fb69a64f11ae1278.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" ></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./baffle.js"></script>
@@ -82,7 +85,7 @@
                       fill: #5918df;
                     }
                   </style>
-                    <h1 >&lt; <span class="purple">Abhay</span> /&gt; </h1>
+                    <h1 >&lt; <span class="purple" id="blot">Abhay</span> /&gt; </h1>
                   </a>
               <div
                 id="nav_collapse"
@@ -170,9 +173,10 @@
                     <div class="">
                       <span class=""></span>
                       <h1 class="subtitle mt-0 ws-nowarp">
-                        i <em class="serif normal">design</em> and
-                        <span class="mono fat">develop</span>
+                        i <em class="serif normal">design and
+                        <span>develop</span>
                         <span class="anim-txt">things</span>
+                        </em>
                       </h1>
                     </div>
                     <br />
@@ -228,17 +232,6 @@
                         </p>
                         <p>
                           <a
-                            href="https://github.com/Daggron/whatsapp-direct-2.0"
-                            aria-label="Whatsapp Direct"
-                            rel="noreferrer"
-                            target="_blank"
-                            data-fx="1"
-                          >
-                            Whatsapp Direct ▶
-                          </a>
-                        </p>
-                        <p>
-                          <a
                             href="https://shorty-build.herokuapp.com/"
                             aria-label="Url Shortner Web App"
                             rel="noreferrer"
@@ -250,13 +243,48 @@
                         </p>
                         <p>
                           <a
-                            href="https://github.com/Daggron/notes-app/"
-                            aria-label="Notes App"
+                            href="https://github.com/Daggron/movies-app"
+                            aria-label="Movie Finder And Details App"
                             rel="noreferrer"
                             target="_blank"
                             data-fx="1"
                           >
-                            Notes App 🗒
+                          🎬 Movies App
+                          </a>
+                        </p>
+                        <p>
+                          <a
+                            href="https://github.com/Daggron/whatsapp-direct-2.0"
+                            aria-label="Whatsapp Direct"
+                            rel="noreferrer"
+                            target="_blank"
+                            data-fx="1"
+                          >
+                            Whatsapp Direct ▶
+                          </a>
+                        </p>
+
+                        <p>
+                          <a
+                            href="https://github.com/Daggron/Webnotes/"
+                            aria-label="Full Stack Note taking app"
+                            rel="noreferrer"
+                            target="_blank"
+                            data-fx="1"
+                          >
+                           NoteTaking App 🗒 (Web Version)
+                          </a>
+                        </p>
+                       
+                        <p>
+                          <a
+                            href="https://github.com/Daggron/notes-app/"
+                            aria-label="Notes App made with react native"
+                            rel="noreferrer"
+                            target="_blank"
+                            data-fx="1"
+                          >
+                            Notes App 🗒 (Mobile App)
                           </a>
                         </p>
                       </div>
@@ -666,7 +694,7 @@
       .pauseFor(2500)
       .start();
     </script>
-
+   
   <script>
     AOS.init();
   </script>
